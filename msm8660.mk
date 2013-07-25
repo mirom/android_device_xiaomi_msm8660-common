@@ -91,10 +91,6 @@ PRODUCT_PACKAGES += \
     make_ext4fs \
     setup_fs
 
-# Camera wrapper
-PRODUCT_PACKAGES += \
-    camera.default
-
 # Media configuration
 PRODUCT_COPY_FILES += \
     device/xiaomi/msm8660-common/configs/media_codecs.xml:system/etc/media_codecs.xml \
