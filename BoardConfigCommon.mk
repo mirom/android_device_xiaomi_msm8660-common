@@ -13,8 +13,10 @@
 # limitations under the License.
 
 BOARD_VENDOR := xiaomi
-
 TARGET_SPECIFIC_HEADER_PATH := device/xiaomi/msm8660-common/include
+
+# CPU
+TARGET_CPU_VARIANT := generic
 
 # Bootloader
 TARGET_NO_BOOTLOADER := true
@@ -69,9 +71,6 @@ COMMON_GLOBAL_CFLAGS += -DDISABLE_HW_ID_MATCH_CHECK
 # Filesystem
 BOARD_VOLD_MAX_PARTITIONS := 36
 
-# FM Radio
-BOARD_HAVE_QCOM_FM := true
-COMMON_GLOBAL_CFLAGS += -DQCOM_FM_ENABLED
 
 # GPS
 BOARD_USES_QCOM_GPS := true
