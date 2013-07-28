@@ -92,8 +92,8 @@ PRODUCT_PACKAGES += \
     setup_fs
 
 # Camera wrapper
-PRODUCT_PACKAGES += \
-    camera.default
+# PRODUCT_PACKAGES += \
+#     camera.default
 
 # Media configuration
 PRODUCT_COPY_FILES += \
