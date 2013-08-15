@@ -85,6 +85,3 @@ BOARD_VENDOR_QCOM_GPS_LOC_API_AMSS_VERSION := 50000
 ENABLE_WEBGL := true
 TARGET_FORCE_CPU_UPLOAD := true
 
-#temp - gcc 4.7 causes bootloop for us. use cm10.1 4.6 for now
-TARGET_GCC_VERSION_EXP := 4.6
-
